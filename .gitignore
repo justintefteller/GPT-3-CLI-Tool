@@ -130,3 +130,10 @@ dist
 .pnp.*
 
 api_key.txt
+
+#nodejs
+node_modules
+build
+npm-debug.log
+.env
+.DS_Store
