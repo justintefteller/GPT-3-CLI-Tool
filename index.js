@@ -9,7 +9,7 @@ const configuration = new Configuration({
 });
 
 const openai = new OpenAIApi(configuration);
-rl.question("What do you want to ask the ai? ", async (answer) => {
+rl.question("What do you want to ask GPT-3? ", async (answer) => {
 	const response = await openai.createCompletion("text-davinci-002",{
 		prompt: answer,
 		temperature: .5,
